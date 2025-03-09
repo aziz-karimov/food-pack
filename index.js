@@ -1,7 +1,8 @@
 require('dotenv').config();
 const { Bot, GrammyError, HttpError, Keyboard, InlineKeyboard } = require('grammy');
 
-const bot = new Bot(process.env.BOT_API_KEY);
+// const bot = new Bot(process.env.BOT_API_KEY);
+const bot = new Bot("7506117754:AAFvfbSkTImL-7f9NMDc1JPkyfPcuEKZE8Y");
 
 bot.api.setMyCommands([
     { command: 'start', description: 'Запуск бота' },
